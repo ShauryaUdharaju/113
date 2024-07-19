@@ -13,7 +13,7 @@ function setup() {
 
 function preload()
 {
-
+    moustache_image = loadImage("moustache.jpg")
 }
     
 
@@ -21,6 +21,7 @@ function draw()
 {
    //image(variable name, x, y, width, height)
    image(video, 0, 0, 300, 300)
+   image(moustache_image, nose_x - 25, nose_y - 25, 50, 50)
 }
 
 function take_snapshot() {
