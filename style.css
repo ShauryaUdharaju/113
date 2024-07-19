@@ -1,0 +1,32 @@
+h3{
+    font-size: 30px !important;
+    box-shadow: 5px 5px 15px black;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+
+.btn-warning:hover
+{
+background-color: red;
+font-size: 18px;
+border: 5px solid black
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {box-shadow: 5px 5px 28px rgb(113, 0, 0);}
+    12% {box-shadow: 5px 5px 28px red;}
+    24% {box-shadow: 5px 5px 38px orange;}
+    36% {box-shadow: 5px 5px 38px yellow;}
+    48% {box-shadow: 5px 5px 38px green;}
+    60% {box-shadow: 5px 5px 28px rgb(0, 230, 230);}
+    72% {box-shadow: 5px 5px 38px blue;}
+    84% {box-shadow: 5px 5px 38px indigo;}
+    96% {box-shadow: 5px 5px 38px violet;}   
+}
